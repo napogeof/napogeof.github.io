@@ -1,4 +1,3 @@
-```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,8 +9,7 @@
     content="Nap0x — technical portfolio covering marine geophysics, geospatial engineering, software, AI and open source."
   >
 
-  <meta name="theme-color" content="#0a0a0a">
-
+  <meta name="theme-color" content="#0b0b0b">
   <title>Nap0x — Technical Portfolio</title>
 
   <link rel="stylesheet" href="styles.css">
@@ -19,624 +17,334 @@
 
 <body>
 
-  <!-- =========================================================
-       HEADER
-  ========================================================== -->
-
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="nap0x home">
-      NAP0x<span>_</span>
+    <a class="brand" href="#top" aria-label="Nap0x home">
+      <img src="img/NP0X.png" alt="NP0X">
     </a>
 
-    <nav aria-label="Primary navigation">
-      <a href="#featured">Featured</a>
-      <a href="#private">Private</a>
-      <a href="#archive">Archive</a>
+    <div class="header-label">TECHNICAL PORTFOLIO / 2026</div>
 
-      <a
-        href="https://github.com/napogeof"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GitHub ↗
-      </a>
+    <nav aria-label="Primary navigation">
+      <a href="#featured">Work</a>
+      <a href="#private">Current</a>
+      <a href="#archive">Archive</a>
+      <a href="https://github.com/napogeof" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
     </nav>
   </header>
 
-
   <main id="top">
 
-    <!-- =======================================================
-         HERO
-    ======================================================== -->
-
     <section class="hero">
+      <div class="hero-contours" aria-hidden="true"></div>
 
-      <div class="hero-grid"></div>
-
-      <div class="hero-content">
-
-        <div class="eyebrow">
-          TECHNICAL PORTFOLIO / 2026
+      <div class="hero-inner">
+        <div class="hero-kicker">
+          <span>00</span>
+          <span>INTRO</span>
         </div>
 
-        <h1>
-          Marine Geophysics.<br>
-          <em>Geospatial Engineering.</em><br>
-          Software &amp; AI.
-        </h1>
+        <div class="hero-copy-wrap">
+          <div class="eyebrow">MARINE GEOPHYSICS · GEOSPATIAL SYSTEMS · SOFTWARE</div>
 
-        <p class="hero-copy">
-          I build tools at the intersection of science, data and
-          real-world problems — from marine acoustic processing
-          to open-source disaster response and adaptive endurance
-          technology.
-        </p>
+          <h1>
+            Marine Geophysics.<br>
+            <span>Geospatial Engineering.</span><br>
+            Software &amp; AI.
+          </h1>
 
-        <div class="hero-links">
+          <div class="hero-lower">
+            <p>
+              I build tools at the intersection of science, data and real-world
+              problems — from marine acoustic processing to open-source disaster
+              response and adaptive endurance technology.
+            </p>
 
-          <a
-            class="button button-primary"
-            href="#featured"
-          >
-            Explore projects ↓
-          </a>
-
-          <a
-            class="button"
-            href="https://github.com/napogeof"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            github.com/napogeof ↗
-          </a>
-
+            <div class="hero-links">
+              <a class="primary-link" href="#featured">Explore work ↓</a>
+              <a href="https://github.com/napogeof" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+          </div>
         </div>
 
+        <div class="hero-portrait">
+          <img src="img/_3147515.jpg" alt="Portrait">
+          <div class="portrait-caption">NAP0x / FIELD NOTES</div>
+        </div>
       </div>
-
-      <div class="hero-meta">
-        <span>GEO</span>
-        <span>DATA</span>
-        <span>SOFTWARE</span>
-        <span>AI</span>
-      </div>
-
     </section>
 
-
-    <!-- =======================================================
-         FEATURED PROJECTS
-    ======================================================== -->
 
     <section id="featured" class="section">
-
       <div class="section-heading">
-
-        <span class="section-index">01</span>
-
+        <div class="section-number">01</div>
         <div>
-          <div class="eyebrow">
-            SELECTED WORK
-          </div>
-
-          <h2>
-            Featured projects
-          </h2>
+          <div class="eyebrow">SELECTED WORK</div>
+          <h2>Things I've built.</h2>
         </div>
-
       </div>
 
+      <div class="work-list">
 
-      <div class="project-grid">
+        <article class="work-item">
+          <div class="work-index">01</div>
 
-        <!-- GeoResponde -->
-
-        <article class="project-card project-card-large">
-
-          <div class="card-top">
-            <span>01 / OPEN SOURCE</span>
-            <span>GEO / DISASTER RESPONSE</span>
+          <div class="work-visual">
+            <div class="visual-label">GEO / DISASTER RESPONSE</div>
+            <img src="img/guairita-removebg-preview.png" alt="GeoResponde visual">
           </div>
 
-          <div class="project-mark">
-            GR
+          <div class="work-content">
+            <div class="work-type">OPEN SOURCE</div>
+            <h3>GeoResponde</h3>
+            <p>
+              A federated geospatial situation room for disaster response,
+              connecting humanitarian data providers, scientific intelligence
+              and field reporting.
+            </p>
+
+            <div class="tags">
+              <span>React</span>
+              <span>MapLibre</span>
+              <span>Geospatial</span>
+              <span>Open Source</span>
+            </div>
+
+            <div class="work-links">
+              <a href="https://github.com/GeoResponde/GeoResponde" target="_blank" rel="noopener noreferrer">Repository ↗</a>
+              <a href="https://georesponde.app" target="_blank" rel="noopener noreferrer">Live site ↗</a>
+            </div>
           </div>
-
-          <h3>
-            GeoResponde
-          </h3>
-
-          <p>
-            A federated geospatial situation room for disaster
-            response, connecting humanitarian data providers,
-            scientific intelligence and field reporting.
-          </p>
-
-          <div class="tags">
-            <span>React</span>
-            <span>MapLibre</span>
-            <span>Geospatial</span>
-            <span>Open Source</span>
-          </div>
-
-          <div class="card-links">
-
-            <a
-              href="https://github.com/GeoResponde/GeoResponde"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Repository ↗
-            </a>
-
-            <a
-              href="https://georesponde.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live site ↗
-            </a>
-
-          </div>
-
         </article>
 
 
-        <!-- HiSAS -->
+        <article class="work-item no-image">
+          <div class="work-index">02</div>
 
-        <article class="project-card project-card-large">
+          <div class="work-content">
+            <div class="work-type">SCIENTIFIC TOOLING · MARINE GEOPHYSICS</div>
+            <h3>HiSAS-XTF-Merger</h3>
+            <p>
+              A raw XTF processing tool for turning fragmented HiSAS files into
+              continuous survey lines while preserving acoustic geometry and
+              preventing duplicate coverage.
+            </p>
 
-          <div class="card-top">
-            <span>02 / SCIENTIFIC TOOLING</span>
-            <span>MARINE GEOPHYSICS</span>
+            <div class="tags">
+              <span>Python</span>
+              <span>XTF</span>
+              <span>HiSAS / SAS</span>
+              <span>Sonar</span>
+            </div>
+
+            <div class="work-links">
+              <a href="https://github.com/napogeof/HiSAS-XTF-Merger" target="_blank" rel="noopener noreferrer">Repository ↗</a>
+              <a href="https://github.com/napogeof/HiSAS-XTF-Merger/releases" target="_blank" rel="noopener noreferrer">Releases ↗</a>
+            </div>
           </div>
 
-          <div class="project-mark project-mark-wide">
-            XTF
+          <div class="work-side-note">
+            <span>02 / PROCESSING</span>
+            <span>RAW ACOUSTIC DATA</span>
+            <span>NO RESAMPLING</span>
           </div>
-
-          <h3>
-            HiSAS-XTF-Merger
-          </h3>
-
-          <p>
-            A raw XTF processing tool for turning fragmented
-            HiSAS files into continuous survey lines while
-            preserving acoustic geometry and preventing
-            duplicate coverage.
-          </p>
-
-          <div class="tags">
-            <span>Python</span>
-            <span>XTF</span>
-            <span>HiSAS / SAS</span>
-            <span>Sonar</span>
-          </div>
-
-          <div class="card-links">
-
-            <a
-              href="https://github.com/napogeof/HiSAS-XTF-Merger"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Repository ↗
-            </a>
-
-            <a
-              href="https://github.com/napogeof/HiSAS-XTF-Merger/releases"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Releases ↗
-            </a>
-
-          </div>
-
         </article>
 
 
-        <!-- Rutina -->
+        <article class="work-item compact">
+          <div class="work-index">03</div>
 
-        <article class="project-card">
+          <div class="work-content">
+            <div class="work-type">SOFTWARE · FITNESS</div>
+            <h3>Rutina de Ejercicios</h3>
+            <p>
+              A lightweight, installable exercise-planning web application built
+              as a practical tool rather than a showcase demo.
+            </p>
 
-          <div class="card-top">
-            <span>03 / SOFTWARE</span>
-            <span>FITNESS</span>
+            <div class="tags">
+              <span>JavaScript</span>
+              <span>PWA</span>
+              <span>Offline</span>
+            </div>
+
+            <div class="work-links">
+              <a href="https://github.com/napogeof/Rutina_Ejercicios" target="_blank" rel="noopener noreferrer">Repository ↗</a>
+            </div>
           </div>
-
-          <div class="project-mark">
-            RX
-          </div>
-
-          <h3>
-            Rutina de Ejercicios
-          </h3>
-
-          <p>
-            A lightweight, installable exercise-planning web
-            application built as a practical tool rather than
-            a showcase demo.
-          </p>
-
-          <div class="tags">
-            <span>JavaScript</span>
-            <span>PWA</span>
-            <span>Offline</span>
-          </div>
-
-          <div class="card-links">
-
-            <a
-              href="https://github.com/napogeof/Rutina_Ejercicios"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Repository ↗
-            </a>
-
-          </div>
-
         </article>
 
 
-        <!-- CardioLog -->
+        <article class="work-item compact">
+          <div class="work-index">04</div>
 
-        <article class="project-card">
+          <div class="work-content">
+            <div class="work-type">SOFTWARE · DATA / FITNESS</div>
+            <h3>CardioLog</h3>
+            <p>
+              An offline-first Blood pressure PWA for structured measurements,
+              trend visualization and portable reporting, designed around privacy
+              and local data.
+            </p>
 
-          <div class="card-top">
-            <span>04 / SOFTWARE</span>
-            <span>DATA / FITNESS</span>
+            <div class="tags">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>PWA</span>
+              <span>Chart.js</span>
+            </div>
+
+            <div class="work-links">
+              <a href="https://github.com/napogeof/CardioLog" target="_blank" rel="noopener noreferrer">Repository ↗</a>
+            </div>
           </div>
-
-          <div class="project-mark">
-            CL
-          </div>
-
-          <h3>
-            CardioLog
-          </h3>
-
-          <p>
-            An offline-first Blood pressure PWA for structured measurements,
-            trend visualization and portable reporting,
-            designed around privacy and local data.
-          </p>
-
-          <div class="tags">
-            <span>React</span>
-            <span>TypeScript</span>
-            <span>PWA</span>
-            <span>Chart.js</span>
-          </div>
-
-          <div class="card-links">
-
-            <a
-              href="https://github.com/napogeof/CardioLog"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Repository ↗
-            </a>
-
-          </div>
-
         </article>
 
       </div>
-
     </section>
 
 
-    <!-- =======================================================
-         PRIVATE PROJECTS
-    ======================================================== -->
-
-    <section id="private" class="section section-private">
-
+    <section id="private" class="section private-section">
       <div class="section-heading">
-
-        <span class="section-index">02</span>
-
+        <div class="section-number">02</div>
         <div>
-          <div class="eyebrow">
-            CURRENT / NOT PUBLIC
-          </div>
-
-          <h2>
-            Private &amp; in development
-          </h2>
+          <div class="eyebrow">CURRENT / NOT PUBLIC</div>
+          <h2>Things in progress.</h2>
         </div>
-
       </div>
-
 
       <p class="section-intro">
-        Selected work that is intentionally not represented by
-        a public repository. Details are kept at the product
-        level.
+        Selected work that is intentionally not represented by a public repository.
+        Details are kept at the product level.
       </p>
 
+      <div class="private-list">
 
-      <div class="private-grid">
-
-        <!-- Redline Lab -->
-
-        <article class="private-card">
-
-          <div class="private-status">
-            <span class="status-dot"></span>
-            PRIVATE
+        <article class="private-item">
+          <div class="private-index">01</div>
+          <div>
+            <div class="private-status">PRIVATE · IN DEVELOPMENT</div>
+            <h3>Redline Lab</h3>
+            <p>
+              Adaptive endurance intelligence for cyclists, combining athlete data,
+              race simulation and an AI coaching layer.
+            </p>
           </div>
-
-          <h3>
-            Redline Lab
-          </h3>
-
-          <p>
-            Adaptive endurance intelligence for cyclists,
-            combining athlete data, race simulation and an
-            AI coaching layer.
-          </p>
-
-          <div class="private-footer">
-            <span>AI / ENDURANCE / PRODUCT</span>
-
-            <a
-              href="https://redlinelab.cc"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Product ↗
-            </a>
-          </div>
-
+          <a href="https://redlinelab.cc" target="_blank" rel="noopener noreferrer">Product ↗</a>
         </article>
 
-
-        <!-- Pelagos -->
-
-        <article class="private-card">
-
-          <div class="private-status">
-            <span class="status-dot"></span>
-            PRIVATE
+        <article class="private-item">
+          <div class="private-index">02</div>
+          <div>
+            <div class="private-status">PRIVATE · IN DEVELOPMENT</div>
+            <h3>Pelagos</h3>
+            <p>
+              A private marine geospatial and scientific computing project currently
+              in development.
+            </p>
           </div>
-
-          <h3>
-            Pelagos
-          </h3>
-
-          <p>
-            A private project currently in development.
-            Sub-Bottom profiler, signal-first processing suit.
-          </p>
-
-          <div class="private-footer">
-            <span>IN DEVELOPMENT</span>
-          </div>
-
         </article>
 
-
-        <!-- Redline Landing -->
-
-        <article class="private-card">
-
-          <div class="private-status">
-            <span class="status-dot"></span>
-            PRIVATE
+        <article class="private-item">
+          <div class="private-index">03</div>
+          <div>
+            <div class="private-status">PRIVATE · IN DEVELOPMENT</div>
+            <h3>Redline Lab Landing</h3>
+            <p>
+              Product-facing web experience and experimentation around the Redline
+              Lab ecosystem.
+            </p>
           </div>
-
-          <h3>
-            Redline Lab Landing
-          </h3>
-
-          <p>
-            Product-facing web experience and experimentation
-            around the Redline Lab ecosystem.
-          </p>
-
-          <div class="private-footer">
-            <span>WEB / PRODUCT</span>
-          </div>
-
         </article>
 
-
-        <!-- Personal website -->
-
-        <article class="private-card">
-
-          <div class="private-status">
-            <span class="status-dot"></span>
-            PRIVATE
+        <article class="private-item">
+          <div class="private-index">04</div>
+          <div>
+            <div class="private-status">PRIVATE · PERSONAL</div>
+            <h3>Personal Website</h3>
+            <p>
+              The separate personal web presence. This site remains focused on
+              technical work and projects.
+            </p>
           </div>
-
-          <h3>
-            Personal Website
-          </h3>
-
-          <p>
-            The separate personal web presence. This site
-            remains focused on technical work and projects.
-          </p>
-
-          <div class="private-footer">
-            <span>PERSONAL / WEB</span>
-          </div>
-
         </article>
-		
-		<article class="private-card">
-		
-			<div>
-				<span class="private-label">
-				PRIVATE</span>
-			<h3>
-				Marine Bootstrap</h3>
-			<p>
-				My rapid-start toolkit for geophysical projects in QGIS. 
-				Standardizes project setup, layers and styles so a new project can be up and running in minutes
-			</p>
-			</div>
-				<span class="private-status">In development</span>
-				
-		</article>
+
+        <article class="private-item">
+          <div class="private-index">05</div>
+          <div>
+            <div class="private-status">PRIVATE · IN DEVELOPMENT</div>
+            <h3>Marine Bootstrap</h3>
+            <p>
+              My rapid-start toolkit for geophysical projects in QGIS. Standardizes
+              project setup, layers and styles so a new project can be up and running
+              in minutes.
+            </p>
+          </div>
+        </article>
 
       </div>
-
     </section>
 
-
-    <!-- =======================================================
-         ARCHIVE
-    ======================================================== -->
 
     <section id="archive" class="section archive-section">
-
       <div class="section-heading">
-
-        <span class="section-index">03</span>
-
+        <div class="section-number">03</div>
         <div>
-          <div class="eyebrow">
-            EXPERIMENTS / HISTORY
-          </div>
-
-          <h2>
-            Archive
-          </h2>
+          <div class="eyebrow">EXPERIMENTS / HISTORY</div>
+          <h2>Archive.</h2>
         </div>
-
       </div>
-
 
       <div class="archive-list">
-
-        <a
-          href="https://github.com/napogeof/gpt3-recipe-writer"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span>
-            GPT-3 Recipe Writer
-          </span>
-
-          <small>
-            AI / EXPERIMENT
-          </small>
-
+        <a href="https://github.com/napogeof/gpt3-recipe-writer" target="_blank" rel="noopener noreferrer">
+          <span>GPT-3 Recipe Writer</span>
+          <small>AI / EXPERIMENT</small>
           <b>↗</b>
         </a>
 
-
-        <a
-          href="https://github.com/napogeof/responsive-landing-page-wellliving"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span>
-            Responsive Landing Page — WellLiving
-          </span>
-
-          <small>
-            WEB / EXPERIMENT
-          </small>
-
+        <a href="https://github.com/napogeof/responsive-landing-page-wellliving" target="_blank" rel="noopener noreferrer">
+          <span>Responsive Landing Page — WellLiving</span>
+          <small>WEB / EXPERIMENT</small>
           <b>↗</b>
         </a>
 
-
-        <a
-          href="https://github.com/napogeof/Everestinghell"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span>
-            Everesting Hell
-          </span>
-
-          <small>
-            CREATIVE / NFT
-          </small>
-
+        <a href="https://github.com/napogeof/Everestinghell" target="_blank" rel="noopener noreferrer">
+          <span>Everesting Hell</span>
+          <small>CREATIVE / NFT</small>
           <b>↗</b>
         </a>
 
-
-        <a
-          href="https://github.com/napogeof/nft-landing-page"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span>
-            NFT Landing Page
-          </span>
-
-          <small>
-            WEB / EXPERIMENT
-          </small>
-
+        <a href="https://github.com/napogeof/nft-landing-page" target="_blank" rel="noopener noreferrer">
+          <span>NFT Landing Page</span>
+          <small>WEB / EXPERIMENT</small>
           <b>↗</b>
         </a>
-
       </div>
-
     </section>
 
 
-    <!-- =======================================================
-         CLOSING
-    ======================================================== -->
-
     <section class="closing">
-
-      <div class="eyebrow">
-        OPEN SOURCE / PRIVATE BUILDING / SCIENTIFIC COMPUTING
+      <div class="closing-top">
+        <div class="eyebrow">OPEN SOURCE · PRIVATE BUILDING · SCIENTIFIC COMPUTING</div>
+        <span>04 / END</span>
       </div>
 
       <h2>
         Build things that<br>
-        <em>solve something.</em>
+        <span>solve something.</span>
       </h2>
 
-      <a
-        class="button button-primary"
-        href="https://github.com/napogeof"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a class="closing-link" href="https://github.com/napogeof" target="_blank" rel="noopener noreferrer">
         View GitHub profile ↗
       </a>
-
     </section>
 
   </main>
 
-
-  <!-- =========================================================
-       FOOTER
-  ========================================================== -->
-
   <footer>
-
-    <span>
-      © 2026 nap0x
-    </span>
-
-    <span>
-      Marine geophysics · software · AI
-    </span>
-
-    <a href="#top">
-      Back to top ↑
-    </a>
-
+    <span>© 2026 nap0x</span>
+    <span>Marine geophysics · software · AI</span>
+    <a href="#top">Back to top ↑</a>
   </footer>
 
 </body>
 </html>
-```
